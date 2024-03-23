@@ -110,6 +110,9 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+I completed my undergraduate studies at Durham University in 2022, where I specialized in Mechanical Engineering. My dissertation project was centered on the application of the Stochastic Newmark Method for analyzing the impact of earthquakes on skyscrapers and other large structures. Following this, in 2023, I obtained my Master's degree from the University of Bristol, with a focus on MSc Biorobotics. My research dissertation was dedicated to the development of a soft and reconfigurable robotic hand designed for in-hand manipulation tasks. This project sparked my profound interest in the cutting-edge field of Robotics.
 
-Qingzheng Cong is currently a Search Assistant at the Multi Scale Embeded Intellgence Lab in Imperial College London . His research interests include mechanical design, robotic In-hand manipulation and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Driven by my passion for research in Robotics, I pursued an internship at the Multi-Scale Embodied Intelligence Lab at Imperial College, renowned for their innovative contributions to micro robotics, tactile perception and teleoperation control. This experience has significantly enriched my understanding and skills in the domain, fueling my enthusiasm to contribute to the advancement of Robotics.
+
+
 {style="text-align: justify;"}
