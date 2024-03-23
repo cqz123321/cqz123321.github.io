@@ -21,7 +21,7 @@ role: Research Assistant of Bioengineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Imperial University
+  - name: Imperial College London
     url: https://www.imperial.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
@@ -38,10 +38,10 @@ education:
   courses:
     - course: MSc in Biorobotics
       institution: University Of Bristol
-      year: 2022
+      year: 2022-2023
     - course: Beng in Mechanical Engineering
       institution: Durham University
-      year: 2023
+      year: 2019-2022
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -111,5 +111,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Qingzheng Cong is currently a Search Assistant at the Multi Scale Embeded Intellgence Lab in Imperial College London . His research interests include mechanical design, robotic In-hand manipulation and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 {style="text-align: justify;"}
