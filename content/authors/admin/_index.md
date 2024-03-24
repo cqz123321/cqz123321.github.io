@@ -61,8 +61,8 @@ skills:
       - name: Solidworks
         description: ''
         percent: 80
-        icon: sparkles
-        icon_pack: hero
+        icon: gears
+        icon_pack: fab
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
