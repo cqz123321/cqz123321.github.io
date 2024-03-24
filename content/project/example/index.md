@@ -3,7 +3,6 @@ title: TacFR-Gripper
 summary: "TacFR-Gripper is a prototype of a reconfigurable Fin ray-based soft and compliant robotic gripper equipped with tactile skin, which is designed for dexterous in-hand manipulation tasks."
 tags:
   - In-Hand Manipulation
-  - Tactile Perception
   - Soft Robotic Hand
   - Reconfigurable Gripper
 
