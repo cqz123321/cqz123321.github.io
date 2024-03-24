@@ -4,7 +4,11 @@ summary: TacFR-Gripper is a prototype of a reconfigurable Fin ray-based soft and
 
 
 tags:
-  - In-Hand Manipulation  - Tactile Perception - Soft Robotic Hand - Reconfigurable Gripper
+  - In-Hand Manipulation
+  - Tactile Perception
+  - Soft Robotic Hand
+  - Reconfigurable Gripper
+
 date: '2016-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
