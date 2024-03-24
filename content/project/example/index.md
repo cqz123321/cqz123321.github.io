@@ -1,8 +1,10 @@
 ---
-title: TacFR-Gripper：A Reconfigurable Soft Robotic Gripper with Tactile Skin for In-Hand Manipulation
+title: TacFR-Gripper
 summary: TacFR-Gripper is a prototype of a reconfigurable Fin ray-based soft and compliant robotic gripper equipped with tactile skin, which is designed for dexterous in-hand manipulation tasks. This soft, compliant gripper can adaptively grasp objects of diverse shapes and stiffness levels. An array of Force Sensitive Resistor (FSR) sensors is embedded within the robotic finger to serve as the tactile skins, which enables the robot with the capacity to perceive contact information during manipulation. Moreover, we implement a Graphical Neural Network (GNN)-based tactile perception approach to enable reliable grasping without accident slip or excessive force, which has been proven to outperform traditional threshold-based approach.  We provide theoretical analysis for gripper design, including kinematic analysis, workspace analysis, and a finite element analysis centered on the relationship between the gripper's load and its deformation. Three physical experiments were undertaken to quantify the performance of the TacFR-Gripper. These experiments aimed to: i) assess the grasp success rate across various everyday objects through different configurations, ii) verify the effectiveness of tactile skin with the GNN algorithm in grasping. iii) evaluate the gripper's in-hand manipulation capabilities for object pose control.  The experimental results indicated that the TacFR-Gripper can grasp a wide range of complex-shaped objects with a high success rate, deliver dexterous in-hand manipulation, and the integrated tactile skin enhances grasp stability by incorporating tactile feedback during manipulations.
+
+
 tags:
-  - Soft robotics, In-hand manipulation, Tactile Perception, Reconfigurable Gripper
+  - In-Hand Manipulation  - Tactile Perception - Soft Robotic Hand - Reconfigurable Gripper
 date: '2016-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
