@@ -31,7 +31,7 @@ bio: My research interests include Micro robotics' Tracking and Control and Mech
 interests:
   - Artificial Intelligence
   - Micro robotics
-  - Magnetic Field Simulation
+  - Mechanical Design Simulation
 
 # Education to show in About widget
 education:
@@ -58,10 +58,10 @@ skills:
         percent: 60
         icon: chart-line
         icon_pack: fas
-      - name: Solid works
+      - name: Solidworks
         description: ''
         percent: 80
-        icon: database
+        icon: cog/sparkles
         icon_pack: fas
   - name: Hobbies
     color: '#eeac02'
@@ -79,7 +79,7 @@ skills:
         icon_pack: fas
       - name: Photography
         description: ''
-        percent: 80
+        percent: 40
         icon: camera-retro
         icon_pack: fas
       - name: Basketball
