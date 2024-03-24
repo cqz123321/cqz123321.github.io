@@ -217,7 +217,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Activities
+      title: Recent Activities
       filters:
         folders:
           - event
@@ -238,7 +238,6 @@ sections:
         Feel free to reach out via email if you're interested in discussing and collaborating on academic topics within my research focus and experience. 
       # Contact (add or remove contact options as necessary)
       email: jscqz2001@gmail.com
-      phone: 07575087563
       address:
         street: Woodlane
         city: London
@@ -275,7 +274,7 @@ sections:
           id:
         netlify:
           # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+          captcha: true
     design:
       columns: '2'
 ---
