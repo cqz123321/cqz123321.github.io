@@ -61,7 +61,7 @@ skills:
       - name: Solidworks
         description: ''
         percent: 80
-        icon: gears
+        icon: gear
         icon_pack: fab
   - name: Hobbies
     color: '#eeac02'
