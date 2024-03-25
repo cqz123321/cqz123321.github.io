@@ -1,8 +1,8 @@
 ---
 title: 5th UK Robot Manipulation Workshop
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+event: 5th UK Robot Manipulation Workshop
+event_url: https://www.robot-manipulation.uk/
 
 location: University of Oxford
 # address:
