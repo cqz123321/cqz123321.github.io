@@ -1,5 +1,5 @@
 ---
-title: 'An example conference paper'
+title: 'TacFR-Gripper：A Reconfigurable Soft Robotic Gripper with Tactile Skin for In-Hand Manipulation'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
