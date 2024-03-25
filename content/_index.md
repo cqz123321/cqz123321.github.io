@@ -222,7 +222,7 @@ sections:
       title: Gallery
       subtitle: ''
       text: |-
-        {{< gallery album="demo" >}}
+        {{< gallery album="picture" >}}
     design:
       columns: '1'
   # - block: tag_cloud
