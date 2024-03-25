@@ -222,7 +222,8 @@ sections:
       title: Gallery
       subtitle: ''
       text: |-
-        {{< gallery album="<picture>" resize_options="250x250" >}}
+        # {{< gallery album="picture" >}}
+        {{< gallery album="picture" resize_options="250x250" >}}
     design:
       columns: '1'
   # - block: tag_cloud
