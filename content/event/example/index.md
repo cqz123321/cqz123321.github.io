@@ -13,7 +13,7 @@ location: University of Oxford
 #   country: United States
 
 summary: The 5th UK Robot Manipulation Workshop
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+abstract: 'Here is a picture of me presenting my recent work, explaining the working principle of the TACFR gripper, and its theoretical analysis to the participants at the 5th UK Robot Manipulation Workshop.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
