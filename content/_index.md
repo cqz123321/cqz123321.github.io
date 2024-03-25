@@ -224,7 +224,7 @@ sections:
       text: |-
         {{< gallery album="picture" resize_options="250x250" >}}
     design:
-      columns: '2'
+      columns: '1'
   # - block: tag_cloud
   #   content:
   #     title: Popular Topics
