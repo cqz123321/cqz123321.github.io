@@ -85,7 +85,7 @@ skills:
       - name: Basketball
         description: ''
         percent: 80
-        icon: camera-retro
+        icon: basketball
         icon_pack: fas
 
 # Social/Academic Networking
