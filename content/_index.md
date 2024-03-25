@@ -222,10 +222,9 @@ sections:
       title: Gallery
       subtitle: ''
       text: |-
-        # {{< gallery album="picture" >}}
         {{< gallery album="picture" resize_options="250x250" >}}
     design:
-      columns: '1'
+      columns: '2'
   # - block: tag_cloud
   #   content:
   #     title: Popular Topics
