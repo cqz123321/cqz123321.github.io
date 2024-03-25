@@ -21,8 +21,8 @@ role: Research Assistant of Bioengineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Imperial College London
-    url: https://www.imperial.ac.uk/
+  - name: Multi-Scale Embodied Intelligence Lab Imperial College London
+    url: https://www.intelligentrobotics-acrossscales.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Micro robotics' Tracking and Control and Mechanical Structure Design
@@ -103,9 +103,9 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: uploads/resume.pdf
+  - icon: cv
+    icon_pack: ai
+    link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
