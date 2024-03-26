@@ -21,7 +21,7 @@ role: Research Assistant of Bioengineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Multi-Scale Embodied Intelligence Lab Imperial College London
+  - name: Multi-Scale Embodied Intelligence Lab, Imperial College London
     url: https://www.intelligentrobotics-acrossscales.com/
 
 # Short bio (displayed in user profile at end of posts)
