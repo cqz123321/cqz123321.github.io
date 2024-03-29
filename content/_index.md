@@ -211,14 +211,12 @@ sections:
       columns: '2'
       view: compact
   - block: markdown
-    id: section-1
     content:
-      title: Section 1
-      subtitle: A subtitle
+      title: "My Poster"
       text: |-
-        Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
-
-        <img src="/images/my-poster.png" alt="这是我的Poster" width="100%">
+        ![My Poster](/images/my-poster.png)
+    design:
+      columns: '1'
 
   - block: markdown
     content:
