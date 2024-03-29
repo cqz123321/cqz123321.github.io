@@ -210,14 +210,13 @@ sections:
     design:
       columns: '2'
       view: compact
-  - block: custom
-    id: poster
+  - block: markdown
+    id: section-1
     content:
-      title: My Custom Poster
-      text: |-
-        <img src="/images/my-poster.png" alt="Custom Poster" style="max-width: 100%;">
-    design:
-      columns: '1'
+      title: Section 1
+      subtitle: A subtitle
+      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+
   - block: markdown
     content:
       title: Gallery
