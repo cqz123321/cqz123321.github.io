@@ -211,7 +211,7 @@ sections:
       columns: '2'
       view: compact
   - block: custom
-    id: custom-poster
+    id: poster
     content:
       title: My Custom Poster
       text: |-
