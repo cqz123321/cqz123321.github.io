@@ -214,7 +214,7 @@ sections:
     content:
       title: "My Poster"
       text: |-
-        {{< gallery album="poster" resize_options="600x400">}}
+        {{< gallery album="poster" resize_options="1920x1080">}}
     design:
       columns: '0'
 
