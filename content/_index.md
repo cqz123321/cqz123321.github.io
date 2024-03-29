@@ -214,9 +214,9 @@ sections:
     content:
       title: "My Poster"
       text: |-
-        ![My Poster](/images/my-poster.png)
+        {{< gallery album="poster">}}
     design:
-      columns: '1'
+      columns: '0'
 
   - block: markdown
     content:
