@@ -214,7 +214,7 @@ sections:
     content:
       title: "My Poster"
       text: |-
-      ![My Poster](/images/my-poster.png)
+        ![My Poster](/images/my-poster.png)
     design:
       columns: '0'
   - block: markdown
