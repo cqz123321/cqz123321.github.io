@@ -214,9 +214,10 @@ sections:
     content:
       title: "My Poster"
       text: |-
-        ![My Poster](/images/my-poster.png)
+        {{< gallery album="poster" resize_options="600x400">}}
     design:
       columns: '0'
+
   - block: markdown
     content:
       title: Gallery
