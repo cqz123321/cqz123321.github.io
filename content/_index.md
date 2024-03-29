@@ -215,7 +215,8 @@ sections:
     content:
       title: Section 1
       subtitle: A subtitle
-      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+      <img src="/images/my-poster.png" alt="这是我的Poster" width="100%">
+
 
   - block: markdown
     content:
