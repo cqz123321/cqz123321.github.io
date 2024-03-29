@@ -216,8 +216,6 @@ sections:
       title: Section 1
       subtitle: A subtitle
       <img src="/images/my-poster.png" alt="这是我的Poster" width="100%">
-
-
   - block: markdown
     content:
       title: Gallery
