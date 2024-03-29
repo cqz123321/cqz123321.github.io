@@ -210,6 +210,14 @@ sections:
     design:
       columns: '2'
       view: compact
+  - block: custom
+    id: custom-poster
+    content:
+      title: My Custom Poster
+      text: |-
+        <img src="/images/my-poster.png" alt="Custom Poster" style="max-width: 100%;">
+    design:
+      columns: '1'
   - block: markdown
     content:
       title: Gallery
