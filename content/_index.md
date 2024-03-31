@@ -178,7 +178,7 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Featured Publications
+      title: Featured Research Paper
       filters:
         folders:
           - publication
