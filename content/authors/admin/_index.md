@@ -53,6 +53,11 @@ skills:
         percent: 60
         icon: python
         icon_pack: fab
+      - name: KiCAD
+        description: ''
+        percent: 60
+        icon: gear
+        icon_pack: fas
       - name: Ansys Simulation
         description: ''
         percent: 60
