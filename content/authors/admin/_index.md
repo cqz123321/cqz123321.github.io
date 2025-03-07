@@ -32,8 +32,6 @@ interests:
   - Artificial Intelligence
   - Micro robotics
   - Mechanical Design Simulation
-  - Soft robot manipulation
-  - Tactile perception
 
 # Education to show in About widget
 education:
