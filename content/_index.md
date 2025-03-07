@@ -168,6 +168,11 @@ sections:
           tag: In-hand manipulation
         - name: Tactile perception
           tag: Tactile perception
+        - name: VBTS Evaluation Pipeline
+          tag: VBTS Evaluation Pipeline
+        - name: Customized FSR
+          tag: Customized FSR
+        
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
@@ -247,7 +252,7 @@ sections:
       text: |-
         Feel free to reach out via email if you're interested in discussing and collaborating on academic topics within my research focus and experience. 
       # Contact (add or remove contact options as necessary)
-      email: jscqz2001@gmail.com
+      email: qcong@ic.ac.uk
       address:
         street: Woodlane
         city: London
