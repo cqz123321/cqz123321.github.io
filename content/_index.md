@@ -166,8 +166,8 @@ sections:
           tag: '*'
         - name: In-hand manipulation
           tag: In-hand manipulation
-        - name: Tactile perception
-          tag: Tactile perception
+        - name: VBTS Datacollection 
+          tag: VBTS Datacollection
         - name: VBTS Evaluation Pipeline
           tag: VBTS Evaluation Pipeline
         - name: Customized FSR
