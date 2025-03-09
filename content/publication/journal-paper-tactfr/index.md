@@ -42,7 +42,7 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-
+url_pdf: "https://www.mdpi.com/2076-0825/13/12/521"
 # url_pdf: ''
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
