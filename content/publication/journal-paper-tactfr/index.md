@@ -42,7 +42,7 @@ featured: true
 # links:
 # - name: Custom Link
   
-url: https://sites.google.com/view/tacfr-gripper/homepage
+# url: https://sites.google.com/view/tacfr-gripper/homepage
 url_pdf: "https://www.mdpi.com/2076-0825/13/12/521"
 # url_pdf: ''
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
@@ -50,7 +50,7 @@ url_pdf: "https://www.mdpi.com/2076-0825/13/12/521"
 # url_poster: ''
 # url_project: ''
 # url_slides: ''
-# url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_source: 'https://sites.google.com/view/tacfr-gripper/homepage'
 # url_video: 'https://youtube.com'
 
 # # Featured image
