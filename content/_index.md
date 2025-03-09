@@ -189,7 +189,7 @@ sections:
           - publication
         featured_only: false
     design:
-      columns: '2'
+      columns: '3'
       view: card
   # - block: collection
   #   content:
