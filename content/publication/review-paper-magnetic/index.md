@@ -1,5 +1,5 @@
 ---
-title: "Design and Benchmarking of A Multi-Modality Sensor for Robotic Manipulation with GAN-Based Cross-Modality Interpretation"
+title: "Magnetic Microrobots for In Vivo Cargo Delivery: A Review"
 authors:
   - Lin, Jialin
   - Cong, Qingzheng
