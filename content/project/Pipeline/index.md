@@ -3,7 +3,7 @@ title: "VBTS Performance Evaluation Pipeline"
 summary: "This study proposes a comprehensive evaluation framework for quantitatively analyzing VBTS performance, addressing challenges from varying sensing mechanisms and structures. We define key performance metrics relevant to application scenarios and design an experimental pipeline for structured assessment. Applying this framework to multiple VBTSs demonstrates its effectiveness in evaluating multifunctionality and providing precise quantitative indicators. This helps researchers select suitable VBTSs and optimize their design for specific tasks."
 
 tags:
-  - Vision Based Tactile Sensor
+  - VBTS Evaluation Pipeline
 
 date: "2024-12-01T00:00:00Z"
 
