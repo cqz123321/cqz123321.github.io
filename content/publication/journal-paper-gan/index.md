@@ -32,17 +32,17 @@ abstract: |
   detection, pose regression, and grating identification. To facilitate seamless switching between various sensing modalities, we employed a generative adversarial 
   network (GAN)-based approach. This method enhances the applicability of the ViTacTip sensor across diverse environments by enabling cross-modality interpretation.
 
-tags:
-  - Source Themes
-featured: false
+tags: []
+
+featured: true
 
 url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10829793"
 
-image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
-  focal_point: ""
-  preview_only: false
+# image:
+#   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
+#   focal_point: ""
+#   preview_only: false
 
-projects: []
+# projects: []
 ---
   
