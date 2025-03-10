@@ -3,7 +3,7 @@ title: "FSR enhanced soft gripper"
 summary: "This project enhances the TacFR gripper by improving FSR accuracy, developing custom high-resolution sensors, and integrating a cable-driven bending mechanism for greater dexterity. To address the lack of shear force sensing, we propose a dual-layer FSR design, enabling more precise force detection and enhancing grasp stability."
 
 tags:
-  - custmized FSR
+  - Custmized FSR
 date: "2024-12-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
