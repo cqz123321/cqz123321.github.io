@@ -25,7 +25,7 @@ image:
 url_code: ''
 url_pdf: ''
 url_slides: ''
-url_video: ''
+url_video: 'https://sites.google.com/view/tacfr-gripper/supplementary-material'
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
