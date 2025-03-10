@@ -162,19 +162,19 @@ sections:
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
       buttons:
-        - name: All
-          tag: '*'
+        # - name: All
+        #   tag: '*'
         - name: In-hand manipulation
           tag: In-hand manipulation
+        - name: Customized FSR
+          tag: Customized FSR
         - name: VBTS Datacollection 
           tag: VBTS Datacollection
         - name: VBTS Evaluation Pipeline
           tag: VBTS Evaluation Pipeline
-        - name: Customized FSR
-          tag: Customized FSR
         - name: VBTS Gripper
           tag: VBTS Gripper
-        
+
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
