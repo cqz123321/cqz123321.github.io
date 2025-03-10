@@ -25,13 +25,14 @@ organizations:
     url: https://www.intelligentrobotics-acrossscales.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Micro robotics' Tracking and Control and Mechanical Structure Design
+bio: My research interests focus on robotic manipulation, robotic hand development, sensor design, and tactile sensing, with specific applications in advancing medical technologies.
 
 # Interests to show in About widget
 interests:
   - Artificial Intelligence
   - Micro robotics
   - Mechanical Design Simulation
+  - Tactile Manipulation
 
 # Education to show in About widget
 education:
