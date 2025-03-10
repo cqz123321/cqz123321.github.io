@@ -115,9 +115,13 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I completed my undergraduate studies at Durham University in 2022, where I specialized in Mechanical Engineering. My dissertation project was centered on the application of the Stochastic Newmark Method for analyzing the impact of earthquakes on skyscrapers and other large structures. Following this, in 2023, I obtained my Master's degree from the University of Bristol, with a focus on MSc Biorobotics. My research dissertation was dedicated to the development of a soft and reconfigurable robotic hand designed for in-hand manipulation tasks. This project sparked my profound interest in the cutting-edge field of Robotics.
+I completed my undergraduate studies at Durham University in 2022, specializing in Mechanical Engineering. My dissertation project applied the Stochastic Newmark Method to analyze earthquake impacts on skyscrapers and large structures, building my expertise in structural dynamics and computational analysis.
 
-Driven by my passion for research in Robotics, I pursued an internship at the Multi-Scale Embodied Intelligence Lab at Imperial College, renowned for their innovative contributions to micro robotics, tactile perception and teleoperation control. This experience has significantly enriched my understanding and skills in the domain, fueling my enthusiasm to contribute to the advancement of Robotics.
+In 2023, I earned an MSc in Biorobotics from the University of Bristol, where my research involved developing a soft, reconfigurable robotic hand for advanced in-hand manipulation. This project enhanced my skills and interest in bio-inspired robotics and sophisticated manipulation techniques.
+
+Following my master's, I pursued an internship at the Multi-Scale Embodied Intelligence Lab at Imperial College London, known for pioneering work in micro-robotics, tactile perception, and teleoperation control. During this internship, I gained extensive hands-on experience in micro robot manufacturing and operation. I was deeply involved in the fabrication and performance evaluation of Vision-Based Tactile Sensors (VBTS), as well as the advanced analysis and practical application of image-based tactile sensing data. Additionally, I designed and implemented flexible PCBs specifically tailored for robotic sensor integration. My responsibilities also included leveraging deep learning techniques for comprehensive data management, encompassing data acquisition, preprocessing, analysis, and interpretation.
+
+
 
 
 {style="text-align: justify;"}
