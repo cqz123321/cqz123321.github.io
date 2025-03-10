@@ -11,7 +11,7 @@ date: "2024-12-01T00:00:00Z"
 # external_link: "https://sites.google.com/view/tacfr-gripper/homepage"
 
 image:
-  caption: "Photo by rawpixel on Unsplash"
+  caption: "Experimental Set up"
   focal_point: "Smart"
 
 # Links

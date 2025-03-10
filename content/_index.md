@@ -172,6 +172,8 @@ sections:
           tag: VBTS Evaluation Pipeline
         - name: Customized FSR
           tag: Customized FSR
+        - name: VBTS Gripper
+          tag: VBTS Gripper
         
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
