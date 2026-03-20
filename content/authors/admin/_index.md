@@ -49,7 +49,7 @@ working_experience:
   items:
     - role: Research Assistant
       period: 2023-2025
-      institution: Imperial College London
+      institution: MSEI Lab IC
       url: https://zhangrobotics.com/msei_website/
     - role: Electronics Intern
       period: 2025.12-2026.03
