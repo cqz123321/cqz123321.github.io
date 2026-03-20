@@ -43,18 +43,20 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
 
-  - block: experience
-    id: experience
+  - block: markdown
+    id: journey
     content:
-      title: 个人经历
-      # Date format for experience
-      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      title: my jounney
+      text: |-
+        I will add my journey here.
+    design:
+      columns: '1'
+
+  - block: experience
+    id: work
+    content:
+      title: 工作经历
       date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Electronics Intern
           company: TG0
@@ -62,14 +64,14 @@ sections:
           location: London
           date_start: '2025-12-01'
           date_end: '2026-03-31'
-          description: Worked on electronics development and integration tasks.
+          description: ''
         - title: Research Assistant
           company: Imperial College London
           company_url: 'https://zhangrobotics.com/msei_website/'
           location: London
           date_start: '2023-01-01'
           date_end: '2025-11-30'
-          description: Conducted tactile sensing and robotic manipulation research, including VBTS fabrication and evaluation.
+          description: ''
     design:
       columns: '2'
   # - block: accomplishments
@@ -177,7 +179,7 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Featured Research Paper
+      title: Featured Paper
       filters:
         folders:
           - publication

@@ -27,6 +27,6 @@ main:
   - name: CV
     url: uploads/resume.pdf
     weight: 70
-  - name: 个人经历
-    url: '#experience'
+  - name: my jounney
+    url: '#journey'
     weight: 80

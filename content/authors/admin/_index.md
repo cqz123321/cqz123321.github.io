@@ -17,12 +17,11 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Research Assistant of Bioengineering 
+role: Phd Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Multi-Scale Embodied Intelligence Lab, Imperial College London
-    url: https://zhangrobotics.com/msei_website/
   - name: Queen Mary SAPHIR
     url: https://www.sems.qmul.ac.uk/research/groups/softrobotics/people/
 
@@ -45,12 +44,6 @@ education:
     - course: Beng in Mechanical Engineering
       institution: Durham University
       year: 2019-2022
-    - course: Electronics Intern
-      institution: TG0
-      year: 2025.12-2026.03
-    - course: Research Assistant
-      institution: Imperial College London
-      year: 2023-2025
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
