@@ -22,7 +22,9 @@ role: Research Assistant of Bioengineering
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Multi-Scale Embodied Intelligence Lab, Imperial College London
-    url: https://www.intelligentrobotics-acrossscales.com/
+    url: https://zhangrobotics.com/msei_website/
+  - name: Queen Mary SAPHIR
+    url: https://www.sems.qmul.ac.uk/research/groups/softrobotics/people/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests focus on robotic manipulation, robotic hand development, sensor design, and tactile sensing, with specific applications in advancing medical technologies.
@@ -30,9 +32,9 @@ bio: My research interests focus on robotic manipulation, robotic hand developme
 # Interests to show in About widget
 interests:
   - Artificial Intelligence
-  - Micro robotics
   - Mechanical Design Simulation
   - Tactile Manipulation
+  - Gaming
 
 # Education to show in About widget
 education:
@@ -43,6 +45,12 @@ education:
     - course: Beng in Mechanical Engineering
       institution: Durham University
       year: 2019-2022
+    - course: Electronics Intern
+      institution: TG0
+      year: 2025.12-2026.03
+    - course: Research Assistant
+      institution: Imperial College London
+      year: 2023-2025
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -120,7 +128,7 @@ I completed my undergraduate studies at Durham University in 2022, specializing 
 
 In 2023, I earned an MSc in Biorobotics from the University of Bristol, where my research involved developing a soft, reconfigurable robotic hand for advanced in-hand manipulation. This project enhanced my skills and interest in bio-inspired robotics and sophisticated manipulation techniques.
 
-Following my master's, I pursued an internship at the Multi-Scale Embodied Intelligence Lab at Imperial College London, known for pioneering work in micro-robotics, tactile perception, and teleoperation control. During this internship, I gained extensive hands-on experience in micro robot manufacturing and operation. I was deeply involved in the fabrication and performance evaluation of Vision-Based Tactile Sensors (VBTS), as well as the advanced analysis and practical application of image-based tactile sensing data. Additionally, I designed and implemented flexible PCBs specifically tailored for robotic sensor integration. My responsibilities also included leveraging deep learning techniques for comprehensive data management, encompassing data acquisition, preprocessing, analysis, and interpretation.
+From 2023 to 2025, I worked as a Research Assistant at the Multi-Scale Embodied Intelligence Lab at Imperial College London. I gained extensive hands-on experience in tactile sensing and robotic manipulation, including the fabrication and performance evaluation of Vision-Based Tactile Sensors (VBTS), data acquisition and analysis, and flexible PCB design for robotic sensor integration. From December 2025 to March 2026, I worked as an Electronics Intern at TG0, focusing on practical electronics development and deployment for robotics-related applications.
 
 
 

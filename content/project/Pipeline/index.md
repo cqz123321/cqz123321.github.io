@@ -1,9 +1,9 @@
 ---
-title: "VBTS Performance Evaluation Pipeline"
-summary: "This study proposes a comprehensive evaluation framework for quantitatively analyzing VBTS performance, addressing challenges from varying sensing mechanisms and structures. We define key performance metrics relevant to application scenarios and design an experimental pipeline for structured assessment. Applying this framework to multiple VBTSs demonstrates its effectiveness in evaluating multifunctionality and providing precise quantitative indicators. This helps researchers select suitable VBTSs and optimize their design for specific tasks."
+title: "Taceva"
+summary: "Taceva is an integrated VBTS data collection and evaluation workflow. It combines a low-cost tactile sensor calibration setup with a structured performance benchmarking pipeline, enabling consistent quantitative analysis across different VBTS designs."
 
 tags:
-  - VBTS Evaluation Pipeline
+  - Taceva
 
 date: "2024-12-01T00:00:00Z"
 
@@ -24,4 +24,6 @@ url_video: ""
 # slides: "Benchmarking_for_tactile_sensor(Summary).pdf"
 ---
 
-Vision-based tactile sensors (VBTS) have gained widespread application in robotic tasks, which is attributed to their high spatial resolution and relatively low manufacturing costs. In current research, variations in sensing mechanisms, structural dimensions, and other parameters among different VBTS lead to significant performance disparities. This diversity creates challenges for users to optimize VBTS for specific tasks, as the initial choice and subsequent fine-tuning can be hindered by a lack of standardized metrics. To address this issue, this study proposes a comprehensive evaluation framework for the quantitative analysis of VBTS performance. We first define a set of performance metrics tailored to typical application scenarios, specifically chosen to represent key quantitative characteristics of VBTS. For each metric, we design an experimental pipeline that provides a structured framework for performance quantification. This evaluation approach is then applied to multiple VBTSs based on different sensing principles to conduct performance assessments. The experimental results demonstrate that this framework provides a thorough evaluation of VBTS multifunctionality and offers precise quantitative indicators for each performance dimension. This supports researchers in pre-selecting appropriate VBTS for specific tasks and provides performance-guided insights for optimizing the design of VBTS.
+Taceva provides an end-to-end workflow for vision-based tactile sensors (VBTS), from data collection to quantitative evaluation. For data collection, we developed a low-cost and compact force-displacement measuring platform by modifying an Easythreed X2 3D printer, enabling repeatable calibration experiments across different tactile sensor designs.
+
+On top of this platform, Taceva defines performance metrics tailored to practical robotic manipulation scenarios and implements a structured benchmarking pipeline for each metric. By applying this workflow to multiple VBTSs with different sensing mechanisms and structures, we obtain consistent quantitative indicators of multifunctional performance. This supports both sensor pre-selection and performance-guided optimization for task-specific applications.

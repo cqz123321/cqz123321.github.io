@@ -43,41 +43,35 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
 
-  # - block: experience
-  #   content:
-  #     title: Experience
-  #     # Date format for experience
-  #     #   Refer to https://docs.hugoblox.com/customization/#date-format
-  #     date_format: Jan 2006
-  #     # Experiences.
-  #     #   Add/remove as many `experience` items below as you like.
-  #     #   Required fields are `title`, `company`, and `date_start`.
-  #     #   Leave `date_end` empty if it's your current employer.
-  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-  #     items:
-  #       - title: CEO
-  #         company: GenCoin
-  #         company_url: ''
-  #         company_logo: org-gc
-  #         location: California
-  #         date_start: '2021-01-01'
-  #         date_end: ''
-  #         description: |2-
-  #             Responsibilities include:
-
-  #             * Analysing
-  #             * Modelling
-  #             * Deploying
-  #       - title: Professor of Semiconductor Physics
-  #         company: University X
-  #         company_url: ''
-  #         company_logo: org-x
-  #         location: California
-  #         date_start: '2016-01-01'
-  #         date_end: '2020-12-31'
-  #         description: Taught electronic engineering and researched semiconductor physics.
-  #   design:
-  #     columns: '2'
+  - block: experience
+    id: experience
+    content:
+      title: 个人经历
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Electronics Intern
+          company: TG0
+          company_url: ''
+          location: London
+          date_start: '2025-12-01'
+          date_end: '2026-03-31'
+          description: Worked on electronics development and integration tasks.
+        - title: Research Assistant
+          company: Imperial College London
+          company_url: 'https://zhangrobotics.com/msei_website/'
+          location: London
+          date_start: '2023-01-01'
+          date_end: '2025-11-30'
+          description: Conducted tactile sensing and robotic manipulation research, including VBTS fabrication and evaluation.
+    design:
+      columns: '2'
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -168,10 +162,8 @@ sections:
           tag: In-hand manipulation
         - name: Customized FSR
           tag: Customized FSR
-        - name: VBTS Datacollection 
-          tag: VBTS Datacollection
-        - name: VBTS Evaluation Pipeline
-          tag: VBTS Evaluation Pipeline
+        - name: Taceva
+          tag: Taceva
         - name: VBTS Gripper
           tag: VBTS Gripper
 
@@ -254,12 +246,12 @@ sections:
       text: |-
         Feel free to reach out via email if you're interested in discussing and collaborating on academic topics within my research focus and experience. 
       # Contact (add or remove contact options as necessary)
-      email: qcong@ic.ac.uk
+      email: qcong@qmul.ac.uk
       address:
-        street: Woodlane
+        street: Mile End Rd, Bethnal Green
         city: London
-        postcode: 'W12 0FD'
-        country: United kingdom
+        postcode: 'E1 4NS'
+        country: United Kingdom
         country_code: UK
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       # office_hours:
@@ -267,8 +259,8 @@ sections:
       #   - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '51.51573051975825'
-        longitude: '-0.2240834243392853'  
+        latitude: '51.52456087896276'
+        longitude: '-0.039563751207250086'
       # contact_links:
       #   - icon: twitter
       #     icon_pack: fab

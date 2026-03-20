@@ -4,6 +4,7 @@ summary: A low cost and compact force-displacemnet-measuring platform from modif
 tags:
   - VBTS Datacollection
 date: "2023-04-27T00:00:00Z"
+draft: true
 
 # Optional external URL for project (replaces project detail page).
 # external_link: https://example.org
