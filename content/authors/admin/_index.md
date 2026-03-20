@@ -21,7 +21,6 @@ role: Phd Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Multi-Scale Embodied Intelligence Lab, Imperial College London
   - name: Queen Mary SAPHIR
     url: https://www.sems.qmul.ac.uk/research/groups/softrobotics/people/
 
@@ -55,6 +54,7 @@ working_experience:
     - role: Electronics Intern
       period: 2025.12-2026.03
       institution: TG0
+      url: https://www.tg0.co.uk/
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

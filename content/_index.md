@@ -188,14 +188,6 @@ sections:
     design:
       columns: '0'
 
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="picture" resize_options="850x550" >}}
-    design:
-      columns: '1'
   # - block: tag_cloud
   #   content:
   #     title: Popular Topics
