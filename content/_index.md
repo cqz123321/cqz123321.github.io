@@ -43,37 +43,6 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
 
-  - block: markdown
-    id: journey
-    content:
-      title: my jounney
-      text: |-
-        I will add my journey here.
-    design:
-      columns: '1'
-
-  - block: experience
-    id: work
-    content:
-      title: 工作经历
-      date_format: Jan 2006
-      items:
-        - title: Electronics Intern
-          company: TG0
-          company_url: ''
-          location: London
-          date_start: '2025-12-01'
-          date_end: '2026-03-31'
-          description: ''
-        - title: Research Assistant
-          company: Imperial College London
-          company_url: 'https://zhangrobotics.com/msei_website/'
-          location: London
-          date_start: '2023-01-01'
-          date_end: '2025-11-30'
-          description: ''
-    design:
-      columns: '2'
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.

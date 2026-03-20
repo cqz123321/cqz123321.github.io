@@ -21,9 +21,11 @@ role: Phd Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Multi-Scale Embodied Intelligence Lab, Imperial College London
   - name: Queen Mary SAPHIR
     url: https://www.sems.qmul.ac.uk/research/groups/softrobotics/people/
+  - name: Research Assistant, 2023-2025, Imperial College London
+    url: https://zhangrobotics.com/msei_website/
+  - name: Electronics Intern, 2025.12-2026.03, TG0
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests focus on robotic manipulation, robotic hand development, sensor design, and tactile sensing, with specific applications in advancing medical technologies.
