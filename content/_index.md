@@ -148,7 +148,7 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Featured Paper
+      title: Paper
       filters:
         folders:
           - publication
