@@ -50,20 +50,37 @@
   {{ $is_featured_publication := and (eq $item.Type "publication") (eq $block_id "featured") }}
   {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
   {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
-  {{ with $resource }}
-    {{ $image := .Fill (printf "808x455 %s" $anchor) }}
-    {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-    <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
-      <div class="img-hover-zoom">
-        <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-            class="article-banner" alt="{{ $item.Title }}" loading="lazy">
+  {{ if $is_featured_publication }}
+    <div class="d-flex align-items-center gap-3 mt-2">
+      {{ with $resource }}
+        {{ $image := .Fill (printf "400x225 %s" $anchor) }}
+        {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+        <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="flex-shrink-0">
+          <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+              alt="{{ $item.Title }}" loading="lazy"
+              style="width: 220px; max-width: 42vw; height: auto; border-radius: 0.35rem;">
+        </a>
+      {{ end }}
+      <div class="section-subheading article-title mb-0 mt-0">
+        <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
       </div>
-    </a>
-  {{ end }}
+    </div>
+  {{ else }}
+    {{ with $resource }}
+      {{ $image := .Fill (printf "808x455 %s" $anchor) }}
+      {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+        <div class="img-hover-zoom">
+          <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+              class="article-banner" alt="{{ $item.Title }}" loading="lazy">
+        </div>
+      </a>
+    {{ end }}
 
-  <div class="section-subheading article-title mb-1 mt-3">
-    <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
-  </div>
+    <div class="section-subheading article-title mb-1 mt-3">
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
+    </div>
+  {{ end }}
 
   {{ if not $is_featured_publication }}
     {{ with $summary }}
