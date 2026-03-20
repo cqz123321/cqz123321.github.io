@@ -22,7 +22,7 @@ role: Phd Student
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Queen Mary SAPHIR
-    url: https://www.sems.qmul.ac.uk/research/groups/softrobotics/people/
+    url: https://www.sems.qmul.ac.uk/research/groups/softrobotics/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests focus on robotic manipulation, robotic hand development, sensor design, and tactile sensing, with specific applications in advancing medical technologies.
@@ -49,7 +49,7 @@ working_experience:
   items:
     - role: Research Assistant
       period: 2023-2025
-      institution: MSEI Lab IC
+      institution: MSEI Lab @ Imperial College London
       url: https://zhangrobotics.com/msei_website/
     - role: Electronics Intern
       period: 2025.12-2026.03

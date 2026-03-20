@@ -41,41 +41,38 @@
     {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
   {{ end }}
 
-  {{ $hide_card_image := false }}
   {{ $block_id := "" }}
   {{ with .page }}
     {{ with .id }}
       {{ $block_id = . }}
     {{ end }}
   {{ end }}
-  {{ if and (eq $item.Type "publication") (eq $block_id "featured") }}
-    {{ $hide_card_image = true }}
-  {{ end }}
-  {{ if not $hide_card_image }}
-    {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
-    {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
-    {{ with $resource }}
-      {{ $image := .Fill (printf "808x455 %s" $anchor) }}
-      {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-      <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
-        <div class="img-hover-zoom">
-          <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-              class="article-banner" alt="{{ $item.Title }}" loading="lazy">
-        </div>
-      </a>
-    {{ end }}
+  {{ $is_featured_publication := and (eq $item.Type "publication") (eq $block_id "featured") }}
+  {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
+  {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
+  {{ with $resource }}
+    {{ $image := .Fill (printf "808x455 %s" $anchor) }}
+    {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+    <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+      <div class="img-hover-zoom">
+        <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+            class="article-banner" alt="{{ $item.Title }}" loading="lazy">
+      </div>
+    </a>
   {{ end }}
 
   <div class="section-subheading article-title mb-1 mt-3">
     <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
   </div>
 
-  {{ with $summary }}
-  <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="summary-link">
-    <div class="article-style">
-      <p>{{.}}</p>
-    </div>
-  </a>
+  {{ if not $is_featured_publication }}
+    {{ with $summary }}
+    <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="summary-link">
+      <div class="article-style">
+        <p>{{.}}</p>
+      </div>
+    </a>
+    {{ end }}
   {{ end }}
 
   {{ if $has_attachments }}
