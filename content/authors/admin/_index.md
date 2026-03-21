@@ -43,7 +43,7 @@ education:
     - course: MSc in Biorobotics
       institution: University of Bristol
       year: 2022-2023
-    - course: Beng in Mechanical Engineering
+    - course: BEng in Mechanical Engineering
       institution: Durham University
       year: 2019-2022
     # - course: High School
