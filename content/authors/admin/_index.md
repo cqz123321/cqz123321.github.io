@@ -37,21 +37,24 @@ interests:
 # Education to show in About widget
 education:
   courses:
+    - course: PhD Student in Soft Robotics
+      institution: Queen Mary University of London
+      year: 2025-present
     - course: MSc in Biorobotics
       institution: University of Bristol
       year: 2022-2023
     - course: Beng in Mechanical Engineering
       institution: Durham University
       year: 2019-2022
-    - course: 初中 6班
-      institution: 淮阴中学 新城校区
-      year: 2013-2016
-    - course: 高中 11班
-      institution: 淮阴中学
-      year: 2017
-    - course: 高中 1班（英文班）
-      institution: 淮阴中学
-      year: 2017-2018
+    # - course: High School
+    #   institution: 淮阴中学
+    #   year: 2016-2018
+    # - course: Middle School
+    #   institution: 淮阴中学 新城校区
+    #   year: 2013-2016
+    # - course: Primary School
+    #   institution: 淮安实验小学
+    #   year: 2007-2013
 
 working_experience:
   title: Working Experience
