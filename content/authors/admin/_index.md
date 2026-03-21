@@ -39,7 +39,7 @@ education:
   courses:
     - course: PhD Student in Soft Robotics
       institution: Queen Mary University of London
-      year: 2025-present
+      year: 2025-Present
     - course: MSc in Biorobotics
       institution: University of Bristol
       year: 2022-2023
