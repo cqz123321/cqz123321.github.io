@@ -5,6 +5,11 @@ summary: "In this project, we developed a robotic hand with a Digit tactile sens
 tags:
   - VBTS Gripper
 date: "2024-12-01T00:00:00Z"
+url: /project/vbts/
+slug: vbts
+aliases:
+  - /project/VBTS/
+type: project
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://sites.google.com/view/tacfr-gripper/homepage"

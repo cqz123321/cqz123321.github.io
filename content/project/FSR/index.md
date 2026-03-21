@@ -6,6 +6,11 @@ tags:
   - Customized FSR
 
 date: "2024-12-01T00:00:00Z"
+url: /project/fsr/
+slug: fsr
+aliases:
+  - /project/FSR/
+type: project
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://sites.google.com/view/tacfr-gripper/homepage"

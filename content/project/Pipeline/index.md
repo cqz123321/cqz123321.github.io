@@ -6,6 +6,11 @@ tags:
   - TacEva
 
 date: "2024-12-01T00:00:00Z"
+url: /project/pipeline/
+slug: pipeline
+aliases:
+  - /project/Pipeline/
+type: project
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://sites.google.com/view/tacfr-gripper/homepage"
