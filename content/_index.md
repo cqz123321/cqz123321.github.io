@@ -123,8 +123,8 @@ sections:
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
-      # `3` uses card view with masonry layout for a more dynamic project grid.
-      view: 3
+      # Use card view with CSS grid for a stable two-column layout (no isotope reflow flicker).
+      view: card
 
   - block: collection
     id: featured

@@ -26,7 +26,6 @@
     {{ $block_id = . }}
   {{ end }}
 {{ end }}
-{{ $is_project_section := and (eq $item.Type "project") (eq $block_id "projects") }}
 {{ $is_featured_publication := and (eq $item.Type "publication") (eq $block_id "featured") }}
 
 <div class="card-simple view-card">
@@ -46,14 +45,6 @@
     <span>{{ . }}</span>
     {{ end }}
   </div>
-  {{ else if $is_project_section }}
-    {{ with $item.Params.tags }}
-    <div class="project-tag-list">
-      {{ range first 3 . }}
-      <span class="project-tag">{{ . }}</span>
-      {{ end }}
-    </div>
-    {{ end }}
   {{ else }}
     {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
   {{ end }}

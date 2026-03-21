@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 从清正
+title: QIngzheng Cong
 
 # Name pronunciation (optional)
 name_pronunciation: Qingzheng Cong
@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Phd Student
+role: PhD Student
 
 # Organizations/Affiliations to show in About widget
 organizations:

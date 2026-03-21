@@ -154,39 +154,16 @@ h6,
   overflow: hidden;
 }
 
-#projects .project-toolbar {
-  margin-bottom: 1.9rem;
+#projects .js-layout-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.4rem;
+  margin: 0;
 }
 
-#projects .project-filters .btn-group {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.65rem;
-}
-
-#projects .project-filters .btn {
-  border-radius: 999px;
-  border: 1px solid var(--cqz-line-strong);
-  background: var(--cqz-surface-2);
-  color: var(--cqz-text-1);
-  font-size: 0.95rem;
-  font-weight: 700;
-  padding: 0.5rem 1rem;
-  box-shadow: none;
-  transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
-}
-
-#projects .project-filters .btn:hover,
-#projects .project-filters .btn.active {
-  border-color: transparent;
-  color: #fff;
-  transform: translateY(-2px);
-  background: linear-gradient(125deg, var(--cqz-accent) 0%, var(--cqz-accent-strong) 100%);
-}
-
-#projects .project-card {
-  width: calc(50% - 12px);
+#projects .js-layout-row > .col-12 {
+  max-width: none;
+  padding: 0;
 }
 
 #projects .card-simple.view-card {
@@ -202,7 +179,7 @@ h6,
   transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease;
 }
 
-#projects .project-item:hover .card-simple.view-card {
+#projects .js-layout-row > .col-12:hover .card-simple.view-card {
   transform: translateY(-5px);
   box-shadow: var(--cqz-shadow-strong);
   border-color: var(--cqz-line-strong);
@@ -222,24 +199,6 @@ h6,
 
 #projects .view-card .section-subheading.article-title a {
   color: var(--cqz-text-1);
-}
-
-#projects .view-card .project-tag-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.42rem;
-  margin-bottom: 0.35rem;
-}
-
-#projects .view-card .project-tag {
-  font-size: 0.74rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  color: var(--cqz-accent-strong);
-  border: 1px solid color-mix(in srgb, var(--cqz-accent-strong) 24%, transparent);
-  background: color-mix(in srgb, var(--cqz-accent-strong) 10%, transparent);
-  border-radius: 999px;
-  padding: 0.22rem 0.6rem;
 }
 
 #projects .view-card .article-style {
@@ -288,33 +247,15 @@ h6,
   border-radius: 14px;
 }
 
-@keyframes cqz-slide-up {
-  0% {
-    transform: translateY(14px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  #projects .project-item {
-    animation: cqz-slide-up 0.5s ease both;
-  }
-}
-
 @media (max-width: 1199.98px) {
-  #projects .project-card {
-    width: calc(50% - 10px);
+  #projects .js-layout-row {
+    gap: 1.2rem;
   }
 }
 
 @media (max-width: 991.98px) {
-  #projects .project-card {
-    width: 100%;
+  #projects .js-layout-row {
+    grid-template-columns: 1fr;
   }
 
   #projects .view-card .article-banner {
@@ -329,10 +270,6 @@ h6,
 
   .wg-about #profile {
     padding: 1.2rem 0.85rem 1.35rem;
-  }
-
-  #projects .project-filters .btn {
-    font-size: 0.87rem;
   }
 
   #projects .view-card .section-subheading.article-title {
