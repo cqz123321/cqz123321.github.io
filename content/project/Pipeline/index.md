@@ -1,9 +1,9 @@
 ---
-title: "Taceva"
+title: "TacEva"
 summary: "Taceva is an integrated VBTS data collection and evaluation workflow. It combines a low-cost tactile sensor calibration setup with a structured performance benchmarking pipeline, enabling consistent quantitative analysis across different VBTS designs."
 
 tags:
-  - Taceva
+  - TacEva
 
 date: "2024-12-01T00:00:00Z"
 
