@@ -1,10 +1,10 @@
 ---
 title: "MagicGripper: A Mini-MagicTac Integrated Gripper Enabling Multimodal Perception in Contact-Rich Manipulation"
 authors:
-  - Fan, Wen
-  - Li, Haoran
-  - Cong, Qingzheng
-  - Zhang, Dandan
+  - Wen Fan
+  - Haoran Li
+  - Qingzheng Cong
+  - Dandan Zhang
 date: "2025-11-11T00:00:00Z"
 doi: "10.1109/tase.2025.3631485"
 
@@ -19,10 +19,22 @@ publication: "IEEE Transactions on Automation Science and Engineering"
 publication_short: "T-ASE"
 
 abstract: |
-  The widespread use of grippers in diverse applications has accelerated advances in both gripper design and tactile perception.
-  In this work, we present MagicGripper, a Mini-MagicTac integrated gripper for contact-rich robotic manipulation.
-  The proposed system combines compact hardware integration with multimodal perception, enabling robust sensing of contact states during manipulation.
-  We benchmark MagicGripper across representative manipulation tasks and show that it improves perception quality and execution reliability in contact-rich scenarios.
+  Contact-rich robotic manipulation in unstructured
+  environments demands reliable multimodal perception. Here, we
+  present MagicGripper, a multimodal robotic gripper built around
+  mini-MagicTac, a compact variant of the MagicTac sensor. MiniMagicTac embeds multi-layer grid structures in a 3D-printed
+  elastomer, enabling visual, proximity, and tactile sensing in a
+  gripper-compatible form factor. In this paper, we introduce the
+  design and multimodal perception capabilities of mini-MagicTac,
+  as well as two algorithmic frameworks for proximity and contact
+  detection. Experimental evaluations show that mini-MagicTac
+  achieves high spatial resolution, accurate contact localisation,
+  and robust force estimation under mechanical and manufacturing variations. Autonomous grasping trials further validate
+  MagicGripper’s reliable multimodal perception and adaptability
+  to complex manipulation scenarios. These results demonstrate
+  MagicGripper as a compact and versatile platform for embodied
+  intelligence in contact-rich environments.
+
 
 tags: []
 

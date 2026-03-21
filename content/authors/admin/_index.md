@@ -21,7 +21,7 @@ role: Phd Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Queen Mary SAPHIR
+  - name: SAPHIR Lab @ Queen Mary University of London
     url: https://www.sems.qmul.ac.uk/research/groups/softrobotics/
 
 # Short bio (displayed in user profile at end of posts)
