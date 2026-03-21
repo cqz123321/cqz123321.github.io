@@ -127,10 +127,10 @@ sections:
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
       buttons:
-        # - name: All
-        #   tag: '*'
-        - name: In-hand manipulation
-          tag: In-hand manipulation
+        - name: All
+          tag: '*'
+        - name: In-Hand Manipulation
+          tag: In-Hand Manipulation
         - name: Customized FSR
           tag: Customized FSR
         - name: Taceva
@@ -141,9 +141,8 @@ sections:
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: true
+      # `3` uses card view with masonry layout for a more dynamic project grid.
+      view: 3
 
   - block: collection
     id: featured

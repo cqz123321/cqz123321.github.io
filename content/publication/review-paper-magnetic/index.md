@@ -1,9 +1,9 @@
 ---
 title: "Magnetic Microrobots for In Vivo Cargo Delivery: A Review"
 authors:
-  - Lin, Jialin
-  - Cong, Qingzheng
-  - Zhang, Dandan
+  - Jialin Lin
+  - Qingzheng Cong
+  - Dandan Zhang
 date: "2024-03-01T00:00:00Z"
 doi: ""
 

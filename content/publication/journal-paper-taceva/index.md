@@ -3,7 +3,7 @@ title: "TacEva: A Performance Evaluation Framework for Vision-Based Tactile Sens
 authors:
   - Qingzheng Cong
   - Steven Oh
-  - Wen Fan, 
+  - Wen Fan
   - Shan Luo
   - Kaspar Althoefer
   - Dandan Zhang,

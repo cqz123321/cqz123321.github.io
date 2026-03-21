@@ -1,14 +1,14 @@
 ---
 title: "Design and Benchmarking of A Multi-Modality Sensor for Robotic Manipulation with GAN-Based Cross-Modality Interpretation"
 authors:
-  - Zhang, Dandan
-  - Fan, Wen
-  - Lin, Jialin
-  - Li, Haoran
-  - Cong, Qingzheng
-  - Liu, Weiru
-  - Lepora, Nathan F
-  - Luo, Shan
+  - Dandan Zhang
+  - Wen Fan
+  - Jialin Lin
+  - Haoran Li
+  - Qingzheng Cong
+  - Weiru Liu
+  - Nathan F Lepora
+  - Shan Luo
 date: "2025-01-01T00:00:00Z"
 doi: ""
 
