@@ -38,11 +38,20 @@ interests:
 education:
   courses:
     - course: MSc in Biorobotics
-      institution: University Of Bristol
+      institution: University of Bristol
       year: 2022-2023
     - course: Beng in Mechanical Engineering
       institution: Durham University
       year: 2019-2022
+    - course: 初中 6班
+      institution: 淮阴中学 新城校区
+      year: 2013-2016
+    - course: 高中 11班
+      institution: 淮阴中学
+      year: 2017
+    - course: 高中 1班（英文班）
+      institution: 淮阴中学
+      year: 2017-2018
 
 working_experience:
   title: Working Experience
