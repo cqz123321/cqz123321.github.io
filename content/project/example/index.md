@@ -9,9 +9,11 @@ tags:
 
 
 date: '2024-12-1T00:00:00Z'
+url: /project/tacfr/
+slug: tacfr
 
 # Optional external URL for project (replaces project detail page).
-external_link: 'https://sites.google.com/view/tacfr-gripper/homepage'
+# external_link: 'https://sites.google.com/view/tacfr-gripper/homepage'
 
 image:
   caption: Photo by rawpixel on Unsplash
