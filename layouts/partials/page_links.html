@@ -15,13 +15,25 @@
 </a>
 {{ end }}
 {{ $pdf := "" }}
-{{ $resource := $page.Resources.GetMatch (printf "%s.pdf" $page.File.ContentBaseName) }}
-{{ with $resource }}
+{{/* Prefer local PDF in page bundle: index.pdf -> content basename -> any pdf, then fallback to url_pdf */}}
+{{ with $page.Resources.GetMatch "index.pdf" }}
   {{ $pdf = .RelPermalink }}
-{{ else }}
-  {{ if $page.Params.url_pdf }}
-    {{ $pdf = $page.Params.url_pdf | relURL }}
+{{ end }}
+{{ if not $pdf }}
+  {{ with $page.File }}
+    {{ $resource := $page.Resources.GetMatch (printf "%s.pdf" $page.File.ContentBaseName) }}
+    {{ with $resource }}
+      {{ $pdf = .RelPermalink }}
+    {{ end }}
   {{ end }}
+{{ end }}
+{{ if not $pdf }}
+  {{ with $page.Resources.GetMatch "*.pdf" }}
+    {{ $pdf = .RelPermalink }}
+  {{ end }}
+{{ end }}
+{{ if and (not $pdf) $page.Params.url_pdf }}
+  {{ $pdf = $page.Params.url_pdf | relURL }}
 {{ end }}
 
 {{ with $pdf }}
