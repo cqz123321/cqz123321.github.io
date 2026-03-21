@@ -24,6 +24,4 @@ tags: []
 
 featured: true
 
-url_pdf: "https://www.mdpi.com/2072-666X/15/5/664"
-
 ---

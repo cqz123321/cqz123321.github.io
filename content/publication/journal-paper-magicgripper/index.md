@@ -27,6 +27,4 @@ abstract: |
 tags: []
 
 featured: true
-
-url_source: "https://ieeexplore.ieee.org/abstract/document/11240159"
 ---

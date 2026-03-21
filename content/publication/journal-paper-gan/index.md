@@ -36,8 +36,6 @@ tags: []
 
 featured: true
 
-url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10829793"
-
 # image:
 #   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)"
 #   focal_point: ""

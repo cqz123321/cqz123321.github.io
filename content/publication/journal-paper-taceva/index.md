@@ -1,12 +1,12 @@
 ---
 title: "TacEva: A Performance Evaluation Framework for Vision-Based Tactile Sensors"
 authors:
-  - Cong, Qingzheng
-  - Oh, Steven
-  - Fan, Wen
-  - Luo, Shan
-  - Althoefer, Kaspar
-  - Zhang, Dandan
+  - Qingzheng Cong
+  - Steven Oh
+  - Wen Fan, 
+  - Shan Luo
+  - Kaspar Althoefer
+  - Dandan Zhang,
 date: "2026-02-11T00:00:00Z"
 doi: "10.1002/aisy.202501179"
 
