@@ -25,7 +25,7 @@ organizations:
     url: https://www.sems.qmul.ac.uk/research/groups/softrobotics/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests focus on robotic manipulation, robotic hand development, sensor design, and tactile sensing, with specific applications in advancing medical technologies.
+bio: 非常喜欢小B宰治在人间逼格里的一句话:铁汁，先穿袜子再穿鞋，先当孙子再当爷。Bro, put on your socks before your shoes; be the grandson before you become the grandpa.
 
 # Interests to show in About widget
 interests:

@@ -128,15 +128,15 @@ sections:
       # To remove the toolbar, delete the entire `filter_button` block.
       buttons:
         - name: All
-          tag: '*'
+          filter: '*'
         - name: In-Hand Manipulation
-          tag: In-Hand Manipulation
+          filter: '.js-id-in-hand-manipulation'
         - name: Customized FSR
-          tag: Customized FSR
+          filter: '.js-id-customized-fsr'
         - name: Taceva
-          tag: Taceva
+          filter: '.js-id-taceva'
         - name: VBTS Gripper
-          tag: VBTS Gripper
+          filter: '.js-id-vbts-gripper'
 
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
