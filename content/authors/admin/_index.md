@@ -1,6 +1,6 @@
 ---
 # Display name
-title: QIngzheng Cong
+title: 从清正
 
 # Name pronunciation (optional)
 name_pronunciation: Qingzheng Cong
